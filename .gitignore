@@ -1,0 +1,17 @@
+data/
+target/
+logs/
+#lib/
+# MacOS directory store
+.DS_Store
+.idea
+*.iml
+# node_modules/
+**/resources/app/**
+
+node_modules/
+node/
+test-results.xml
+etc/
+
+
