@@ -695,3 +695,9 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+[data-type="exempel"]{
+    max-width: 800px;
+    margin: 4rem auto;
+}
