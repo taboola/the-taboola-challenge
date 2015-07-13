@@ -41,4 +41,4 @@
         .done(tryck);
 
 
-}(window, document)
+}(window, document);
