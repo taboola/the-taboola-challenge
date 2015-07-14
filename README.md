@@ -38,9 +38,12 @@ the click data is returned in [json](https://en.wikipedia.org/wiki/JSON) format 
 
 ```
 > [epoch time](https://en.wikipedia.org/wiki/Unix_time)
+
 * the server supports an optional ```after``` parameter, which when called with an epoch time, will only return results generated after that time, so if you add the value from the ```generated``` field to the url, you will only get new data after it was generated (otherwise you get an ampty list of clicks instead ```[]``` )
 example: http://10.150.20.141:8080/stats/clicks?after=1436871060323 vs http://10.150.20.141:8080/stats/clicks?after=1536871060323
+
 #### Project template
+
 go ahead an clone this repo, then open ```index.html``` in your browser. 
 
 ## The Rules
