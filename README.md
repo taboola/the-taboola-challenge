@@ -3,7 +3,8 @@ Welcome to the Taboola TelAviv 2015 challenge.
 
 ## The Challenge 
 The challenge is to create a real time data visualisation worthy of the big screen at Taboola's enterance.
-When winning team members will be offered a summer internship at Taboola. 
+
+The winning team members will be offered a summer internship at Taboola. 
 
 ## What you get:
 #### Data
@@ -46,7 +47,7 @@ go ahead an clone this repo, then open ```index.html``` in your browser.
 1. You get 24 hours
 2. Teams of up to 4 need to sign up by 12:00 with Lichen
 3. Projects will be presented tomorrow at 10:00AM sharp!
-4. Projects will be judged based on: Correctness, Coherence, and User Experience
+4. Projects will be judged based on: Correctness, Coherence, User Experience, and Cool Factor. 
 5. Technical stuff: Please wear a name badge when in the office, No smoking in the balcony (you can go on the roof), Please keep the noise level reasonable. 
 
 
