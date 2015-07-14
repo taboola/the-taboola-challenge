@@ -9,18 +9,21 @@ The winning team members will be offered a summer internship at Taboola.
 ## What you get:
 #### Data
 * we prepared a server that reports clicks done in the taboola network in the last minute.
-the click data is returned in [json](https://en.wikipedia.org/wiki/JSON) format fron this the following url http://10.150.20.141:8080/stats/clicks.
+the click data is returned in [json](https://en.wikipedia.org/wiki/JSON) format fron this the following url http://52.11.153.209:8080/stats/clicks
 * new data is generated every minute, so calling the url again will return the same data.
 * data format
 ```javascript
 {
-    generated: 1436868484956, //last updated epoch time, this will change once a minute.
+    generated: 1436868484956, //last updated [epoch time](https://en.wikipedia.org/wiki/Unix_time), this will change once a minute.
     data : [
         {
             sourcePublisher: "tehrantimes", //publisher from which the click originated from
-            eventTime: 1436867819000, //event epoch time
+            eventTime: 1436867819000, //event [epoch time](https://en.wikipedia.org/wiki/Unix_time)
             targetItemId: -992066647354435200,  //id of the clicked item.
             targetPublisher: "mossad-il", //publisher which is the target of the click (the advertizer)
+            title: "The Mossad wants you!", //the title of the clicked url.
+            thumbnailUrl: "http://cdn.timesofisrael.com/uploads/2012/11/Mossad_seal.png",//the url of the target page thumbnail
+            url: "http://www.timesofisrael.com/the-mossad-wants-you/",  //a url to the clicked page
             countryName: "Iran, Islamic Republic of",
             countryCode: "IR",
             region: "17",
@@ -31,16 +34,12 @@ the click data is returned in [json](https://en.wikipedia.org/wiki/JSON) format 
         {
             sourcePublisher: "usatoday",
             //...
-        },
-        //...
-    ]
-}
 
 ```
 > [epoch time](https://en.wikipedia.org/wiki/Unix_time)
 
 * the server supports an optional ```after``` parameter, which when called with an epoch time, will only return results generated after that time, so if you add the value from the ```generated``` field to the url, you will only get new data after it was generated (otherwise you get an ampty list of clicks instead ```[]``` )
-example: http://10.150.20.141:8080/stats/clicks?after=1436871060323 vs http://10.150.20.141:8080/stats/clicks?after=1536871060323
+example: http://52.11.153.209:8080/stats/clicks?after=1436871060323 vs http://52.11.153.209:8080/stats/clicks?after=1536871060323
 
 #### Project template
 
