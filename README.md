@@ -2,7 +2,7 @@
 Welcome to the Taboola TelAviv 2015 challenge.
 
 ## The Challenge 
-The challenge is to create a real time data visualisation worthy of the big screen at Taboola's enterance.
+The challenge is to create a real time data visualisation worthy of the big screen at Taboola's enterance across all offices worldwide.
 
 The winning team members will be offered a summer internship at Taboola. 
 
