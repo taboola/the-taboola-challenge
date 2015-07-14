@@ -44,9 +44,9 @@ example: http://10.150.20.141:8080/stats/clicks?after=1436871060323 vs http://10
 go ahead an clone this repo, then open ```index.html``` in your browser. 
 
 ## The Rules
-1. You get 24 hours
+1. You have 24 hours
 2. Teams of up to 4 need to sign up by 12:00 with Lichen
-3. Projects will be presented tomorrow at 10:00AM sharp!
+3. Each team will present ther work tomorrow at 10:00AM sharp!
 4. Projects will be judged based on: Correctness, Coherence, User Experience, and Cool Factor. 
 5. Technical stuff: Please wear a name badge when in the office, No smoking in the balcony (you can go on the roof), Please keep the noise level reasonable. 
 
