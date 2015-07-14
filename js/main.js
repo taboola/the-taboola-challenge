@@ -1,8 +1,7 @@
 !function(win, doc) {
     'use strict';
 
-    var datumSourceUri = 'http://10.150.20.141:8080/stats/clicks';
-
+    var datumSourceUri = 'http://10.150.20.141:8080/stats/clicks'; //kanske http://52.11.153.209:8080/stats/clicks
 
     /**
      * tryck
@@ -40,5 +39,8 @@
     $.getJSON(datumSourceUri)
         .done(tryck);
 
+    console.log("%cWelcome to the #taboolachallenge hackathon", "font-weight:bold; font-size:48px; color:#164a7c;");
+    console.log("%cTel Aviv, 15 July, 2015.", "font-size:22px; color:#164a7c;");
+    console.log("%c%s luck to all the participants%s", "font-size:16px; color:#16A085;", "Good", "!");
 
 }(window, document);
