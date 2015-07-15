@@ -48,7 +48,8 @@ go ahead an clone this repo, then open ```index.html``` in your browser.
 ## The Rules
 1. You have 24 hours
 2. Teams of up to 4 need to sign up by 12:00 with Lichen
-3. Each team will present ther work tomorrow at 10:00AM sharp!
+3. Each team will present ther work tomorrow at 10:00AM sharp! 
+   Each project should be in a separate github Fork.
 4. Projects will be judged based on: Correctness, Coherence, User Experience, and Cool Factor. 
 5. Technical stuff: Please wear a name badge when in the office, No smoking in the balcony (you can go on the roof), Please keep the noise level reasonable. 
 
